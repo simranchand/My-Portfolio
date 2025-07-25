@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran's Portfolio</title>
+    <meta name="description" content="Personal Portfolio Page of Simran">
+    <link rel="icon" href="assets/img/icon.ico.png" type="image">
+    <link rel="stylesheet" href="style_1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/img/Logo.png" alt="Simran's Logo">
+            </a>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+        <div class="nav-menu">
+        <!--<a href="index.html">Home</a>
+            <a href="contact.html">Contact Me</a> -->
+            <a href="assets/Simran_Chand_Resume.pdf" class="resume-button" download>Download Resume</a>
+            <div id="dark-mode-toggle" class="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <img src="assets/img/SIMRAN.jpg" alt="Simran pic">
+        <h1>Hello, I am Simran, a <span class="about-me"></span></h1>
+        <p>I am a passionate and detail-oriented software developer with expertise in both front-end including HTML, CSS, JavaScript, React. With a strong foundation in SQL, I enjoy building scalable and efficient applications. My experience includes working as an ADAS Trainee at Tata Elxsi, where I contributed to enhancing the accuracy of a weapon detection system. Additionally, I have developed personal projects like Carzone, a full-stack car marketplace with integrated price prediction, and My Portfolio, a responsive personal website showcasing my skills, projects, and academic background. A proactive learner and team player, I am eager to leverage my skills in a collaborative environment to drive innovation and impactful solutions.</p>
+    </header>
+
+    <div class="content-container">
+l
+        <section>
+            <h2>My Technical Skills</h2>
+            <div class="skills-list">
+                <ul class="skills-list">
+                    <li>Java, Python</li>
+                    <li>HTML, CSS, Bootstrap, JavaScript, React</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="horizontal-scroll">
+            <div class="icon-container">
+                <img src="assets/img/icon/1.png" alt="Icon 1">
+                <img src="assets/img/icon/2.png" alt="Icon 2">
+                <img src="assets/img/icon/3.png" alt="Icon 3">
+                <img src="assets/img/icon/4.png" alt="Icon 4">
+                <img src="assets/img/icon/5.png" alt="Icon 5">
+                <img src="assets/img/icon/6.webp" alt="Icon 6">
+                <img src="assets/img/icon/7.svg" alt="Icon 7">
+                <img src="assets/img/icon/8.png" alt="Icon 8">
+                <img src="assets/img/icon/9.png" alt="Icon 9">
+                <img src="assets/img/icon/10.png" alt="Icon 10">
+            </div>
+        </section>
+        <hr>
+
+        <section id="programming-languages">
+            <h2>Programming Languages</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+            <div class="skill">
+                <p>React</p>
+                <div class="progress-bar" data-progress="80"></div>
+            </div>
+            <div class="skill">
+                <p>SQL</p>
+                <div class="progress-bar" data-progress="90"></div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="internship">
+            <h2>Internship</h2>
+            <div class="internship">
+                <h3>Tata Elxsi</h3>
+                <p>ADAS Trainee</p>
+                <ul class="internship-details">
+                    <p><b>Smart In-cabin Metro Solution</b></p>
+                    <li>Enhanced the accuracy and reliability of the weapon detection system, improving system performance for real-time applications.</li>
+                    <li>Collected and curated extensive datasets of knives and guns for model training and validation, ensuring high-quality inputs.</li>
+                    <li>Applied advanced data augmentation techniques, including tiling, to improve dataset diversity and robustness.</li>
+                    <li>Performed detailed annotations using polygonal segmentation and semantic segmentation methods, optimizing input data for machine learning models.</li>
+                    <li>Collaborated with a cross-functional team to ensure timely completion of the project, meeting organizational goals, and delivering a reliable solution.</li>
+                </ul>
+                <button class="toggle-details">Show More</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>My Projects</h2>
+            <p>Take a look at some of my works.</p>
+            <section id="projects">
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="assets/img/PORTFOLIO.jpg"  alt="Project 1">
+                        <h3>My Portfolio</h3>
+                        <p>Simran’s Portfolio is a personal website designed to showcase skills, projects, and experience in software development. It features a dynamic and interactive interface with smooth animations, a dark mode toggle, and a responsive layout.</p>
+                        <a href="#" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                    </div>
+                </div>
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="assets/img/WEATHER.avif" alt="Project 2">
+                        <h3>Weather API</h3>
+                        <p>This project is a simple weather application that allows users to check the current weather conditions of any city. It fetches real-time weather data using the OpenWeatherMap API and displays temperature, humidity, wind speed, and weather conditions with corresponding icons.</p>
+                        <a href="#" class="btn know-more" data-modal-target="#projectModal2">Know More</a>
+
+                    </div>
+                </div>
+                <div class="project-thumbnail">
+                    <div class="thumbnail-content">
+                        <img src="assets/img/carZone.png" alt="Project 3">
+                        <h3>CarZone</h3>
+                        <p>CarZone is a full-stack web application that enables users to buy, sell, and browse cars in a seamless and user-friendly interface. The platform also features a car price prediction tool powered by a machine learning model to help sellers list vehicles at fair prices. The project includes secure user authentication using Firebase, dynamic listings, and state management using React Hooks.</p>
+                        <a href="#" class="btn know-more" data-modal-target="#projectModal3">Know More</a>
+                    </div>
+                </div>
+
+                <!-- Repeat the above structure for each project -->
+            </section>
+            <!--<p><a href="6_project.html">Project 1</a> | <a href="https://www.pantechsolutions.net/deep-learning-based-food-calorie-estimation-method-in-dietary-assessment">Project 2</a></p>-->
+        </section>
+        <hr>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <hr>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>Let's connect!</p>
+            <a href="mailto:simranchand072003@gmail.com"><img class="icon" src="assets/img/gmail.png" alt="gmail"></a>
+            <a href="https://www.linkedin.com/in/simran-chand-a54716238/"><img class="icon" src="assets/img/linkedin.png" alt="linkedin"></a><br><br><br>   
+        </section>
+
+
+    </div>
+    <footer>
+        <p>&copy; 2024 Simran.</p>
+    </footer>
+
+
+    <!-- Project Information Modal -->
+    <!-- Project Information Modal -->
+    <div id="projectModal1" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Personal Portfolio</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p>Short Project Overview: This portfolio website is built using HTML, CSS, and JavaScript, integrating modern web technologies like React components, FontAwesome icons, and a dynamic typing effect. It highlights technical expertise, personal projects, and contact information in a visually appealing and user-friendly manner. The project also includes an interactive project showcase with modals, carousels, and a downloadable resume option.</p>
+                        <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="column image-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="assets/img/Portfolio_SS_1.png" alt="Project Image 1">
+                                <img src="assets/img/Portfolio_SS_2.png" alt="Project Image 2">
+                                <img src="assets/img/Portfolio_SS_4.png" alt="Project Image 3">
+                                <img src="assets/img/Portfolio_SS_3.png" alt="Project Image 4">
+                            </div>
+                            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-row">
+                    <div class="column">
+                        <h3>Project Details</h3>
+                        <ul>
+                            <li><b>Dynamic Typing Effect</b>: The "About Me" section features a text animation displaying different roles like "Full Stack Developer" and "Java Developer."</li>
+                            <li><b>Dark Mode Toggle</b>: Users can switch between light and dark modes for better user experience.</li>
+                            <li><b>Responsive Design</b>: Uses CSS media queries and Flexbox/Grid to ensure mobile-friendly accessibility.</li>
+                            <li><b>Project Showcase</b>: Features image carousels, modals, and a "Know More" button to provide detailed information on projects.</li>
+                            <li><b>Programming Skills Section</b>: Progress bars animate dynamically when they come into view.</li>
+                            <li><b>Contact Form & Social Links</b>: Includes an integrated form for users to send messages and direct links to LinkedIn and GitHub.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="projectModal2" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Project Title 2</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p>The weather application provides users with real-time weather updates by entering a city name. It uses the OpenWeatherMap API to fetch data and displays the relevant weather conditions. The user interface includes a search bar, weather details, and appropriate icons for various weather conditions. The app also includes error handling to notify users when an invalid city name is entered. The design is visually appealing with a gradient background and modern UI elements.</p>
+                        <a href="https://github.com/simranchand/WeatherApi" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="column image-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="assets/img/WEATHER_API_SS_1.png" alt="Project Image 5">
+                                <img src="assets/img/WEATHER_API_SS_2.png" alt="Project Image 6">
+                                <img src="assets/img/WEATHER_API_SS_3.png" alt="Project Image 7">
+                            </div>
+                            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-row">
+                    <div class="column">
+                        <h3>Project Details</h3>
+                        <ul>
+                            <b>Technologies Used: HTML, CSS, JavaScript, OpenWeatherMap API</b>
+                            <p><b>Features:</b></p>
+                            <li>Search for any city's weather</li>
+                            <li>Displays temperature, humidity, and wind speed</li>
+                            <li>Shows weather condition icons dynamically</li>
+                            <li>Error handling for invalid city names</li>
+                            <li>Responsive design for different screen sizes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="projectModal3" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Project Title</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p>CarZone is a full-stack web application that allows users to buy and sell cars online. It features secure user authentication, dynamic car listings, and a price prediction tool powered by machine learning. Built using React, Node.js, and Firebase, the app provides a seamless and responsive user experience with features like search, filters, and car posting.</p>
+                        <a href="https://github.com/JiteenMohanty/CarZone_React" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="column image-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="assets/img/carZone1.png" alt="Project Image 7">
+                                <img src="assets/img/carZone2.png" alt="Project Image 9">
+                                <img src="assets/img/CarZone3.png" alt="Project Image 10">
+                                <img src="assets/img/carZone4.png" alt="Project Image 10">
+                                <img src="assets/img/carZone5.png" alt="Project Image 10">
+                            </div>
+                            <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                            <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-row">
+                    <div class="column">
+                        <h3>Project Details</h3>
+                        <ul>
+                            <h4>Tech Stack</h4>
+                            <li><strong>Frontend</strong>: React.js, React Router, Bootstrap, Context API</li>
+                            <li><strong>Backend</strong>: Node.js, Express.js, REST APIs</li>
+                            <li><strong>Database</strong>: MongoDB (or Firebase Realtime Database / Firestore, based on your setup)</li>
+                            <li><strong>Authentication</strong>: Firebase Authentication</li>
+                            <li><strong>Machine Learning</strong>: Python (for price prediction model), integrated via API</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
